@@ -341,4 +341,8 @@ class PHPSass_TestCase extends PHPUnit_Framework_TestCase {
   public function testMixinSetvar() {
     $this->runSassTest('mixin_setvar.scss');
   }
+
+  public function testColour() {
+    $this->runSassTest('colour-nth.scss');
+  }
 }
